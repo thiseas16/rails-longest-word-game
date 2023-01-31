@@ -1,0 +1,5 @@
+<h2><%= @info[:message] %></h2>
+<h2>Score:<%= @info[:score] %></h2>
+<h2>Total Score:<%= session[:total] %></h2>
+<%= link_to "Play again", new_path%>
+<%= link_to "Start a new game", root_path%>
